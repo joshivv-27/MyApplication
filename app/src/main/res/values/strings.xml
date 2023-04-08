@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="db_cards_titles">
+        <item>Tasks</item>
+        <item>Appointment</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abcd.myapplication.MainActivity">
+
+
+    <Button
+        android:text="Date Picker Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDP" />
+
+    <Button
+        android:text="Database Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDB" />
+
+    <Button
+        android:text="Shared Preferences Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSP" />
+
+    <Button
+        android:text="Sync SQlite with server Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSync" />
+
+    <Button
+        android:text="Crash Report Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCR" />
+
+    <Button
+        android:text="Spinner Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpin" />
+
+    <Button
+        android:text="FAB Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFAB" />
+    <Button
+        android:text="RF Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRF" />
+    <Button
+        android:text="MySQL Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMySQL" />
+
+</LinearLayout>

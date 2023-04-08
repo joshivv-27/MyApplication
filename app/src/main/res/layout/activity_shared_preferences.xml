@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shared_preferences"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abcd.myapplication.shared_preferences.SharedPreferencesActivity"
+    android:orientation="vertical">
+
+    <Switch
+        android:text="Do ON / OFF : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swOnOff" />
+
+    <Button
+        android:text="Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheck" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+
+</LinearLayout>
